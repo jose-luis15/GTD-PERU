@@ -26,8 +26,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget#centralwidget{
-	background-image: url(:/fondos/creado.png);}</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="button_crear">
@@ -40,10 +39,13 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 25px;</string>
+     <string notr="true">border-radius: 25px;
+background-color: rgb(231, 157, 36);
+color: rgb(255, 255, 255);
+font: 15pt &quot;Swis721 Blk BT&quot;;</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Crear otra</string>
     </property>
    </widget>
    <widget class="QPushButton" name="salir">
@@ -56,16 +58,205 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 15px;</string>
+     <string notr="true">border-radius: 15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Swis721 Blk BT&quot;;
+background-color: rgb(69, 174, 158);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>320</y>
+      <width>531</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>460</y>
+      <width>701</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(55, 95, 158);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <widget class="QGroupBox" name="verticalGroupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>20</y>
+      <width>701</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(55, 95, 158);
+border-radius: 20px</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </widget>
+   <widget class="QWidget" name="verticalWidget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>60</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(69, 174, 158);
+border-radius: 20px</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4"/>
+   </widget>
+   <widget class="QWidget" name="verticalWidget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>390</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(55, 95, 158);
+border-radius: 45px</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5"/>
+   </widget>
+   <widget class="QWidget" name="verticalWidget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>-500</y>
+      <width>600</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(55, 95, 158);
+border-radius: 300px</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6"/>
+   </widget>
+   <widget class="QWidget" name="verticalWidget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>440</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(55, 95, 158);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7"/>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 15pt &quot;Swis721 Blk BT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Creador de folder</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(231, 157, 36);
+font: 14pt &quot;Swis721 Blk BT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>FACTIBILIDAD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>381</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+font: 14pt &quot;Swis721 Blk BT&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;La carpeta ha sido creada&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;exitosamente...!!!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalWidget_12" native="true">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>400</y>
+      <width>70</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(66, 116, 191);
+border-radius: 35px</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_13"/>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>420</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 15pt &quot;Swis721 Blk BT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;GTD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
  </widget>
- <resources>
-  <include location="source.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
