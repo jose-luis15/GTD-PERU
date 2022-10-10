@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="fondos">
+    <file>creado.png</file>
+    <file>error.png</file>
+    <file>principal.png</file>
+  </qresource>
+</RCC>
