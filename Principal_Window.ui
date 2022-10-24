@@ -137,12 +137,12 @@ Background-color: transparent;</string>
 Background-color: transparent;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="alerta">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>280</x>
       <y>320</y>
-      <width>531</width>
+      <width>191</width>
       <height>21</height>
      </rect>
     </property>
@@ -400,6 +400,30 @@ font: 15pt &quot;Swis721 Blk BT&quot;;</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;GTD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <zorder>button_crear</zorder>
+   <zorder>salir</zorder>
+   <zorder>alerta</zorder>
+   <zorder>verticalWidget</zorder>
+   <zorder>verticalGroupBox_2</zorder>
+   <zorder>verticalWidget_3</zorder>
+   <zorder>verticalWidget_4</zorder>
+   <zorder>verticalWidget_5</zorder>
+   <zorder>verticalWidget_6</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>verticalWidget_7</zorder>
+   <zorder>verticalWidget_8</zorder>
+   <zorder>verticalWidget_9</zorder>
+   <zorder>verticalWidget_10</zorder>
+   <zorder>verticalWidget_11</zorder>
+   <zorder>verticalWidget_12</zorder>
+   <zorder>label_5</zorder>
+   <zorder>codigo</zorder>
+   <zorder>cliente</zorder>
+   <zorder>distrito</zorder>
+   <zorder>lat</zorder>
+   <zorder>lon</zorder>
   </widget>
  </widget>
  <resources/>
