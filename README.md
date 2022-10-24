@@ -1,4 +1,4 @@
-# Creador de folder de Factibilidades - GTD ✍🏼💾💻💚💛💙
+# Creador de folder de Factibilidades - GTD ✍🏼💾💻💙
 
 ![](https://imgur.com/3qNUh6w.png)
 
